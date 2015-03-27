@@ -1,0 +1,562 @@
+[
+  {
+    "iragana": "あ",
+    "katakana": "ア",
+    "roman": "a"
+  },
+  {
+    "iragana": "い",
+    "katakana": "イ",
+    "roman": "i"
+  },
+  {
+    "iragana": "う",
+    "katakana": "ウ",
+    "roman": "u"
+  },
+  {
+    "iragana": "え",
+    "katakana": "エ",
+    "roman": "e"
+  },
+  {
+    "iragana": "お",
+    "katakana": "オ",
+    "roman": "o"
+  },
+  {
+    "iragana": "や",
+    "katakana": "ャ",
+    "roman": "ya"
+  },
+  {
+    "iragana": "ゆ",
+    "katakana": "ュ",
+    "roman": "yu"
+  },
+  {
+    "iragana": "よ",
+    "katakana": "ョ",
+    "roman": "yo"
+  },
+  {
+    "iragana": "か",
+    "katakana": "カ",
+    "roman": "ka"
+  },
+  {
+    "iragana": "き",
+    "katakana": "キ",
+    "roman": "ki"
+  },
+  {
+    "iragana": "く",
+    "katakana": "ク",
+    "roman": "ku"
+  },
+  {
+    "iragana": "け",
+    "katakana": "ケ",
+    "roman": "ke"
+  },
+  {
+    "iragana": "こ",
+    "katakana": "コ",
+    "roman": "ko"
+  },
+  {
+    "iragana": "きゃ",
+    "katakana": "キャ",
+    "roman": "kya"
+  },
+  {
+    "iragana": "きゅ",
+    "katakana": "キュ",
+    "roman": "kyu"
+  },
+  {
+    "iragana": "きょ",
+    "katakana": "キョ",
+    "roman": "kyo"
+  },
+  {
+    "iragana": "さ",
+    "katakana": "サ",
+    "roman": "sa"
+  },
+  {
+    "iragana": "し",
+    "katakana": "シ",
+    "roman": "shi"
+  },
+  {
+    "iragana": "す",
+    "katakana": "ス",
+    "roman": "su"
+  },
+  {
+    "iragana": "せ",
+    "katakana": "セ",
+    "roman": "se"
+  },
+  {
+    "iragana": "そ",
+    "katakana": "ソ",
+    "roman": "so"
+  },
+  {
+    "iragana": "しゃ",
+    "katakana": "シャ",
+    "roman": "sha"
+  },
+  {
+    "iragana": "しゅ",
+    "katakana": "シュ",
+    "roman": "shu"
+  },
+  {
+    "iragana": "しょ",
+    "katakana": "ショ",
+    "roman": "sho"
+  },
+  {
+    "iragana": "た",
+    "katakana": "タ",
+    "roman": "ta"
+  },
+  {
+    "iragana": "ち",
+    "katakana": "チ",
+    "roman": "chi"
+  },
+  {
+    "iragana": "つ",
+    "katakana": "ツ",
+    "roman": "tsu"
+  },
+  {
+    "iragana": "て",
+    "katakana": "テ",
+    "roman": "te"
+  },
+  {
+    "iragana": "と",
+    "katakana": "ト",
+    "roman": "to"
+  },
+  {
+    "iragana": "ちゃ",
+    "katakana": "チャ",
+    "roman": "cha"
+  },
+  {
+    "iragana": "ちゅ",
+    "katakana": "チュ",
+    "roman": "chu"
+  },
+  {
+    "iragana": "ちょ",
+    "katakana": "チョ",
+    "roman": "cho"
+  },
+  {
+    "iragana": "な",
+    "katakana": "ナ",
+    "roman": "na"
+  },
+  {
+    "iragana": "に",
+    "katakana": "ニ",
+    "roman": "ni"
+  },
+  {
+    "iragana": "ぬ",
+    "katakana": "ヌ",
+    "roman": "nu"
+  },
+  {
+    "iragana": "ね",
+    "katakana": "ネ",
+    "roman": "ne"
+  },
+  {
+    "iragana": "の",
+    "katakana": "ノ",
+    "roman": "no"
+  },
+  {
+    "iragana": "にゃ",
+    "katakana": "ニャ",
+    "roman": "nya"
+  },
+  {
+    "iragana": "にゅ",
+    "katakana": "ニュ",
+    "roman": "nyu"
+  },
+  {
+    "iragana": "にょ",
+    "katakana": "ニョ",
+    "roman": "nyo"
+  },
+  {
+    "iragana": "は",
+    "katakana": "ハ",
+    "roman": "ha"
+  },
+  {
+    "iragana": "ひ",
+    "katakana": "ヒ",
+    "roman": "hi"
+  },
+  {
+    "iragana": "ふ",
+    "katakana": "フ",
+    "roman": "fu"
+  },
+  {
+    "iragana": "へ",
+    "katakana": "ヘ",
+    "roman": "he"
+  },
+  {
+    "iragana": "ほ",
+    "katakana": "ホ",
+    "roman": "ho"
+  },
+  {
+    "iragana": "ひゃ",
+    "katakana": "ヒャ",
+    "roman": "hya"
+  },
+  {
+    "iragana": "ひゅ",
+    "katakana": "ヒュ",
+    "roman": "hyu"
+  },
+  {
+    "iragana": "ひょ",
+    "katakana": "ヒョ",
+    "roman": "hyo"
+  },
+  {
+    "iragana": "ま",
+    "katakana": "マ",
+    "roman": "ma"
+  },
+  {
+    "iragana": "み",
+    "katakana": "ミ",
+    "roman": "mi"
+  },
+  {
+    "iragana": "む",
+    "katakana": "ム",
+    "roman": "mu"
+  },
+  {
+    "iragana": "め",
+    "katakana": "メ",
+    "roman": "me"
+  },
+  {
+    "iragana": "も",
+    "katakana": "モ",
+    "roman": "mo"
+  },
+  {
+    "iragana": "みゃ",
+    "katakana": "ミャ",
+    "roman": "mya"
+  },
+  {
+    "iragana": "みゅ",
+    "katakana": "ミュ",
+    "roman": "myu"
+  },
+  {
+    "iragana": "みょ",
+    "katakana": "ミョ",
+    "roman": "myo"
+  },
+  {
+    "iragana": "や",
+    "katakana": "ヤ",
+    "roman": "ya"
+  },
+  {
+    "iragana": "ゆ",
+    "katakana": "ユ",
+    "roman": "yu"
+  },
+  {
+    "iragana": "よ",
+    "katakana": "ヨ",
+    "roman": "yo"
+  },
+  {
+    "iragana": "ら",
+    "katakana": "ラ",
+    "roman": "ra"
+  },
+  {
+    "iragana": "り",
+    "katakana": "リ",
+    "roman": "ri"
+  },
+  {
+    "iragana": "る",
+    "katakana": "ル",
+    "roman": "ru"
+  },
+  {
+    "iragana": "れ",
+    "katakana": "レ",
+    "roman": "re"
+  },
+  {
+    "iragana": "ろ",
+    "katakana": "ロ",
+    "roman": "ro"
+  },
+  {
+    "iragana": "りゃ",
+    "katakana": "リャ",
+    "roman": "rya"
+  },
+  {
+    "iragana": "りゅ",
+    "katakana": "リュ",
+    "roman": "ryu"
+  },
+  {
+    "iragana": "りょ",
+    "katakana": "リョ",
+    "roman": "ryo"
+  },
+  {
+    "iragana": "わ",
+    "katakana": "ワ",
+    "roman": "wa"
+  },
+  {
+    "iragana": "ゐ",
+    "katakana": "ヰ",
+    "roman": "i"
+  },
+  {
+    "iragana": "ゑ",
+    "katakana": "ヱ",
+    "roman": "e"
+  },
+  {
+    "iragana": "を",
+    "katakana": "ヲ",
+    "roman": "o"
+  },
+  {
+    "iragana": "ん",
+    "katakana": "ン",
+    "roman": "n-n'(-m)"
+  },
+  {
+    "iragana": "が",
+    "katakana": "ガ",
+    "roman": "ga"
+  },
+  {
+    "iragana": "ぎ",
+    "katakana": "ギ",
+    "roman": "gi"
+  },
+  {
+    "iragana": "ぐ",
+    "katakana": "グ",
+    "roman": "gu"
+  },
+  {
+    "iragana": "げ",
+    "katakana": "ゲ",
+    "roman": "ge"
+  },
+  {
+    "iragana": "ご",
+    "katakana": "ゴ",
+    "roman": "go"
+  },
+  {
+    "iragana": "ぎゃ",
+    "katakana": "ギャ",
+    "roman": "gya"
+  },
+  {
+    "iragana": "ぎゅ",
+    "katakana": "ギュ",
+    "roman": "gyu"
+  },
+  {
+    "iragana": "ぎょ",
+    "katakana": "ギョ",
+    "roman": "gyo"
+  },
+  {
+    "iragana": "ざ",
+    "katakana": "ザ",
+    "roman": "za"
+  },
+  {
+    "iragana": "じ",
+    "katakana": "ジ",
+    "roman": "ji"
+  },
+  {
+    "iragana": "ず",
+    "katakana": "ズ",
+    "roman": "zu"
+  },
+  {
+    "iragana": "ぜ",
+    "katakana": "ゼ",
+    "roman": "ze"
+  },
+  {
+    "iragana": "ぞ",
+    "katakana": "ゾ",
+    "roman": "zo"
+  },
+  {
+    "iragana": "じゃ",
+    "katakana": "ジャ",
+    "roman": "ja"
+  },
+  {
+    "iragana": "じゅ",
+    "katakana": "ジュ",
+    "roman": "ju"
+  },
+  {
+    "iragana": "じょ",
+    "katakana": "ジョ",
+    "roman": "jo"
+  },
+  {
+    "iragana": "だ",
+    "katakana": "ダ",
+    "roman": "da"
+  },
+  {
+    "iragana": "ぢ",
+    "katakana": "ヂ",
+    "roman": "ji"
+  },
+  {
+    "iragana": "づ",
+    "katakana": "ヅ",
+    "roman": "zu"
+  },
+  {
+    "iragana": "で",
+    "katakana": "デ",
+    "roman": "de"
+  },
+  {
+    "iragana": "ど",
+    "katakana": "ド",
+    "roman": "do"
+  },
+  {
+    "iragana": "ぢゃ",
+    "katakana": "ヂャ",
+    "roman": "ja"
+  },
+  {
+    "iragana": "ぢゅ",
+    "katakana": "ヂュ",
+    "roman": "ju"
+  },
+  {
+    "iragana": "ぢょ",
+    "katakana": "ヂョ",
+    "roman": "jo"
+  },
+  {
+    "iragana": "ば",
+    "katakana": "バ",
+    "roman": "ba"
+  },
+  {
+    "iragana": "び",
+    "katakana": "ビ",
+    "roman": "bi"
+  },
+  {
+    "iragana": "ぶ",
+    "katakana": "ブ",
+    "roman": "bu"
+  },
+  {
+    "iragana": "べ",
+    "katakana": "ベ",
+    "roman": "be"
+  },
+  {
+    "iragana": "ぼ",
+    "katakana": "ボ",
+    "roman": "bo"
+  },
+  {
+    "iragana": "びゃ",
+    "katakana": "ビャ",
+    "roman": "bya"
+  },
+  {
+    "iragana": "びゅ",
+    "katakana": "ビュ",
+    "roman": "byu"
+  },
+  {
+    "iragana": "びょ",
+    "katakana": "ビョ",
+    "roman": "byo"
+  },
+  {
+    "iragana": "ぱ",
+    "katakana": "パ",
+    "roman": "pa"
+  },
+  {
+    "iragana": "ぴ",
+    "katakana": "ピ",
+    "roman": "pi"
+  },
+  {
+    "iragana": "ぷ",
+    "katakana": "プ",
+    "roman": "pu"
+  },
+  {
+    "iragana": "ぺ",
+    "katakana": "ペ",
+    "roman": "pe"
+  },
+  {
+    "iragana": "ぽ",
+    "katakana": "ポ",
+    "roman": "po"
+  },
+  {
+    "iragana": "ぴゃ",
+    "katakana": "ピャ",
+    "roman": "pya"
+  },
+  {
+    "iragana": "ぴゅ",
+    "katakana": "ピュ",
+    "roman": "pyu"
+  },
+  {
+    "iragana": "ぴょ",
+    "katakana": "ピョ",
+    "roman": "pyo"
+  }
+]
