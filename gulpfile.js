@@ -27,7 +27,9 @@ gulp.task('js', function () {
         'node_modules/jquery/dist/jquery.min.map',
         'node_modules/angular/angular.min.js',
         'node_modules/angular/angular.min.js.map',
-        'node_modules/materialize-css/dist/js/materialize.min.js'
+        'node_modules/materialize-css/dist/js/materialize.min.js',
+        'node_modules/underscore/underscore-min.js',
+        'node_modules/underscore/underscore-min.map'
     ]).pipe(gulp.dest(js_dest));
 
     gulp.src([js_src + '/*.js'])
