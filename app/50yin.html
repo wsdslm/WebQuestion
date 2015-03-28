@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>50音测试</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <style>
+        [type="checkbox"]:not(:checked) + label {
+            padding-left: 25px;
+            padding-right: 10px;
+        }
+
+        .roman {
+            margin-left: 10px;;
+        }
+    </style>
+</head>
+<body ng-controller="questionCtrl">
+<div class="container">
+    <div class="row">
+        <div class="col m3" ng-repeat="item in test">
+            <div class="card-panel teal">
+          <span class="white-text">
+             {{showKatakana?item.katakana:item.iragana}}
+          </span>
+          <span class="white-text roman">
+             {{showRoman?item.roman:''}}
+          </span>
+            </div>
+            <div class="input-field">
+                <input ng-model="item.input"
+                       type="text"
+                       class="validate"
+                       ng-change="item.valid=undefined"
+                       ng-class="item.valid===false?'invalid':''"
+                       ng-keyup="$last?keyup($event):void()">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col m12">
+            <input type="checkbox" id="showKatakana" ng-model="showKatakana"/>
+            <label for="showKatakana">测试片假名</label>
+            <input type="checkbox" id="showRoman" ng-model="showRoman"/>
+            <label for="showRoman">显示结果</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s10 m12 right-align">
+            <button class="btn btn-large waves-effect waves-light" ng-click="getShuffle()">换一组</button>
+            <button class="btn btn-large waves-effect waves-light" ng-click="valid()">验证</button>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/underscore-min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/materialize.min.js"></script>
+<script>
+    var app = angular.module('app', []);
+    app.controller('questionCtrl', function ($scope, $http) {
+        $scope.data = [];
+        $scope.test = [];
+        $scope.showKatakana = false;
+        $scope.showRoman = false;
+        $scope.getShuffle = getShuffle;
+        $scope.valid = valid;
+        $scope.keyup = keyup;
+
+        $http.get('data/50yin.json').success(function (data) {
+            $scope.data = data;
+            getShuffle();
+        });
+
+        function getShuffle() {
+            $scope.test = angular.copy(_.sample($scope.data, 4));
+        }
+
+        function valid() {
+            var sum = 0;
+            for (var i in $scope.test) {
+                if ($scope.test[i].input != undefined && $scope.test[i].roman == $scope.test[i].input) {
+                    $scope.test[i].valid = true;
+                    sum += 1;
+                } else {
+                    $scope.test[i].valid = false;
+                }
+            }
+            if (sum === 4) {
+                toast('输入全部正确', 3000);
+                getShuffle();
+            }
+        }
+
+        function keyup(e) {
+            if (e.keyCode === 13) {
+                valid();
+            }
+        }
+    });
+</script>
+</body>
+</html>
